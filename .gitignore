@@ -1,0 +1,9 @@
+/dist/
+/build/
+/.venv/
+/.idea/
+/nt/
+/creds.json
+/Downloader_Z.spec
+/October Crow.ttf
+.gitignore
