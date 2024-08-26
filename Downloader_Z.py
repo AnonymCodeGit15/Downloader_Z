@@ -53,6 +53,7 @@ def my_path(path_name) -> str:
 try :
     credentials = service_account.Credentials.from_service_account_file(my_path("creds.json"))
 except Exception as err_CRED:
+    # Exit if credentials cannot load
     print("Error finding / loading credentials file.")
     print(f"Error : {str(err_CRED)}")
     msg = QMessageBox()
