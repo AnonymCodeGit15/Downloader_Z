@@ -461,7 +461,7 @@ class MainWindow(QWidget):
             sys.exit(0)
 
     def downErr(self, e: str):
-        """Handle download error"""
+        """Handles download error"""
         msg = QMessageBox()
         msg.setIcon(QMessageBox.Critical)
         msg.setWindowIcon(QIcon(my_path("icon.png")))
