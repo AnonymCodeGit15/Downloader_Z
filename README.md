@@ -48,5 +48,6 @@ Example command line based usage ( default test 50Mb file ) :
 ```
 ./Downloader_Z.py --id "1wm79RcJfBmGKaxnWNKDCNNlvIbI2JiDy" --folder_out "Download" --file_out "test_down.7z" --md5 "ee99f11231036576d71eb5a37a627825"
 ```
-
+## License
+[GNU LGPLv3](https://choosealicense.com/licenses/lgpl-3.0/)
 
